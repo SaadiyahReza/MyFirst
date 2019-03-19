@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vaults_SarezaTest_name": {
+            "value": "SarezaTest"
+        },
+        "workflows_SarezaTest_name": {
+            "value": "SarezaTest"
+        },
+        "virtualNetworks_VSTSAgent2VNET_name": {
+            "value": "VSTSAgent2VNET"
+        },
+        "virtualNetworks_VSTSAgentPSVNET_name": {
+            "value": "VSTSAgentPSVNET"
+        },
+        "networkInterfaces_VSTSAgent2VMNic_name": {
+            "value": "VSTSAgent2VMNic"
+        },
+        "networkInterfaces_VSTSAgentPSVMNic_name": {
+            "value": "VSTSAgentPSVMNic"
+        },
+        "networkSecurityGroups_VSTSAgent2NSG_name": {
+            "value": "VSTSAgent2NSG"
+        },
+        "networkSecurityGroups_VSTSAgentPSNSG_name": {
+            "value": "VSTSAgentPSNSG"
+        },
+        "publicIPAddresses_VSTSAgent2PublicIP_name": {
+            "value": "VSTSAgent2PublicIP"
+        },
+        "publicIPAddresses_VSTSAgentPSPublicIP_name": {
+            "value": "VSTSAgentPSPublicIP"
+        },
+        "securityRules_rdp_name": {
+            "value": "rdp"
+        },
+        "securityRules_rdp_name_1": {
+            "value": "rdp"
+        },
+        "subnets_VSTSAgent2Subnet_name": {
+            "value": "VSTSAgent2Subnet"
+        },
+        "subnets_VSTSAgentPSSubnet_name": {
+            "value": "VSTSAgentPSSubnet"
+        }
+    }
+}
